@@ -1,0 +1,150 @@
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #FAEBD7;
+}
+
+/* the title */
+
+.title{
+  background-image: url("/image/tile_background.jpg");
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  padding: 1% 1%;
+  color: white;
+}
+
+/* background of navigation bars*/
+.header {
+  width: 100%;
+  background-color: black;
+  /* height: 60px; */
+}
+
+/* buttons on the navigation bar*/
+.button{
+  background-color: black;
+  height: 100%;
+  color:white;
+  font-size: 20px;
+  padding:1% 1%;
+  margin:0;
+  border:none;
+}
+
+.button:hover{
+  background-color:white;
+  color: black;
+}
+
+.button:focus{
+  background-color:#1e90ff;
+  color:white;
+}
+
+/* content below the navigation bar*/
+.content{
+  background-color: #FAEBD7; 
+  height:80%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.section{
+  width: 80%;
+}
+/* ending section*/
+.end {
+float: left;
+  background-color: dodgerblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 18px;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+margin: 2% 0%;
+  left: 0;
+  float: left;
+}
+
+.author_content{
+  font-size: 10px;
+}
+
+/* the header of the content in the "about" section*/
+h1{
+  margin:1% 1% 1% 1%;
+  width: inherit;
+  float: left;
+  background-color: #ccc;
+}
+/* content of the "about" section*/
+.about{
+background-color: #e6e6e6;
+width:inherit;
+float:left;
+margin:0% 1%;
+}
+/* content of the "create" section */
+form{
+  width:inherit;
+  float:left;
+  margin:1%;
+  background-color:rgba(255,255,255, 0.5);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+input{
+  width:80%;
+  float: left;
+}
+input:hover{
+  background-color: rgba(0, 0,0, 0.2);
+}
+textarea{
+  width: 80%;
+}
+textarea:hover{
+  
+  background-color: rgba(0, 0,0, 0.2);
+}
+
+.post_button{
+  width: 60px;
+  height: 40px;
+ /* margin:20px; */
+ background-color: white;
+  color: #1e90ff;
+  border-color: #1e90ff;
+}
+
+.post_button:hover{
+  background-color: #1e90ff;
+  color: white;
+}
+/* content of the "news" section*/
+.author_and_tags{
+  margin: 1%;
+  width: inherit;
+  background-color: #ccc;
+
+}
+.author{
+  width: 50%;
+  float: left;
+  text-align: left;
+  margin: 0px;
+  font-size: 15px;
+  background-color: #ccc;
+}
+.tags{
+  width: 50%;
+  margin: 0px;
+  float: right;
+  text-align: right;
+  font-size:15px;
+  background-color: #ccc;
+}

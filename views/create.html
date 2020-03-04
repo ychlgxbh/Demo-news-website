@@ -1,0 +1,23 @@
+<form ng-submit="create_news(post_title,content,author,tags)" ng-init="current_time()" class="content">
+    <p>Post Title</p>
+    <input type="text" name="post_title" id="post_title" placeholder="Post Title" ng-model="post_title" />
+    <br>
+    <p>Author</p>
+    <input type="text" name="author" id="author" placeholder="Author" ng-model="author" />
+    <br>
+    <p>Current time: {{ct}}
+    </p>
+    Content
+    <br>
+    <br>
+    <textarea rows="4" cols="30" placeholder="Post content here..." ng-model="content"></textarea>
+    <br>
+    <p>Tags</p>
+    <input type="text" name="tags" id="tags" placeholder="Tags, separated by commas." ng-model="tags" />
+    <br>
+    <br>
+    <input type="submit" value="Post" class="post_button" />
+    <br>
+
+
+  </form>

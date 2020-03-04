@@ -1,0 +1,12 @@
+<div ng-init="get_news()">
+  <div id="news_content" class="section" ng-repeat="value in news_array">
+    <h1>{{value.title}}</h1>
+    <div class="about">
+      <p>{{value.content}}</p>
+    </div>
+    <div class="author_and_tags">
+      <p class="author">posted by {{value.author}} on {{value.date}}</p>
+      <p class="tags">{{value.tags}}</p>
+    </div>
+  </div>
+</div>
